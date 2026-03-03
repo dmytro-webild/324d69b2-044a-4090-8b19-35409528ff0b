@@ -107,7 +107,7 @@ export default function ServicesPage() {
                 "Professional, fully customized WordPress websites built to your specifications. We handle everything from design to deployment and ongoing maintenance.",
               media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-wordpress-website-dashboard-int-1772534363949-f30a1051.png",
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-wordpress-website-dashboard-int-1772534363949-f30a1051.png?_wi=2",
               },
               items: [
                 { icon: Palette, text: "Custom Design" },
@@ -123,7 +123,7 @@ export default function ServicesPage() {
                 "WooCommerce and advanced e-commerce solutions that convert. We optimize for sales with streamlined checkout flows and product management systems.",
               media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-e-commerce-website-interf-1772534363405-baa8b36c.png",
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-e-commerce-website-interf-1772534363405-baa8b36c.png?_wi=2",
               },
               items: [
                 { icon: ShoppingCart, text: "WooCommerce Expert" },
@@ -139,7 +139,7 @@ export default function ServicesPage() {
                 "High-converting landing pages designed specifically for your advertising campaigns. Optimized for cost-per-acquisition and maximum ROI.",
               media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-high-converting-landing-page-design-fo-1772534365645-4bbe1daa.png",
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-high-converting-landing-page-design-fo-1772534365645-4bbe1daa.png?_wi=2",
               },
               items: [
                 { icon: Target, text: "Ad Optimized" },
