@@ -169,15 +169,15 @@ export default function AboutPage() {
             {
               id: "1",              name: "Marko Petrovic",              role: "Owner",              company: "E-commerce Startup",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=3"},
             {
               id: "2",              name: "Jovana Stosic",              role: "Marketing Manager",              company: "Fashion Boutique",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=3"},
             {
               id: "3",              name: "Nikola Cvetkovic",              role: "Founder",              company: "Digital Marketing Agency",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=3"},
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
