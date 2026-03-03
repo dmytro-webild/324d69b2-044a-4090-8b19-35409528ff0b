@@ -125,7 +125,7 @@ export default function HomePage() {
                 "AviCoding transformed our online presence. Our sales increased by 42% in just 3 months!",
               rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png",
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=1",
             },
             {
               name: "Stefan Dimitrijevic",
@@ -134,7 +134,7 @@ export default function HomePage() {
                 "Professional, reliable, and results-oriented. Exactly what we needed for our digital presence.",
               rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png",
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=1",
             },
             {
               name: "Ana Milic",
@@ -143,7 +143,7 @@ export default function HomePage() {
                 "The new website brought in so many new clients. AviCoding's support is outstanding!",
               rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png",
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=1",
             },
           ]}
           testimonialRotationInterval={5000}
@@ -197,7 +197,7 @@ export default function HomePage() {
                 "Professional, fully customized WordPress websites built to your specifications. We handle everything from design to deployment and ongoing maintenance.",
               media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-wordpress-website-dashboard-int-1772534363949-f30a1051.png",
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-wordpress-website-dashboard-int-1772534363949-f30a1051.png?_wi=1",
               },
               items: [
                 { icon: Palette, text: "Custom Design" },
@@ -213,7 +213,7 @@ export default function HomePage() {
                 "WooCommerce and advanced e-commerce solutions that convert. We optimize for sales with streamlined checkout flows and product management systems.",
               media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-e-commerce-website-interf-1772534363405-baa8b36c.png",
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-e-commerce-website-interf-1772534363405-baa8b36c.png?_wi=1",
               },
               items: [
                 { icon: ShoppingCart, text: "WooCommerce Expert" },
@@ -229,7 +229,7 @@ export default function HomePage() {
                 "High-converting landing pages designed specifically for your advertising campaigns. Optimized for cost-per-acquisition and maximum ROI.",
               media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-high-converting-landing-page-design-fo-1772534365645-4bbe1daa.png",
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-high-converting-landing-page-design-fo-1772534365645-4bbe1daa.png?_wi=1",
               },
               items: [
                 { icon: Target, text: "Ad Optimized" },
@@ -314,7 +314,7 @@ export default function HomePage() {
               company: "E-commerce Startup",
               rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png",
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=2",
             },
             {
               id: "2",
@@ -323,7 +323,7 @@ export default function HomePage() {
               company: "Fashion Boutique",
               rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png",
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=2",
             },
             {
               id: "3",
@@ -332,7 +332,7 @@ export default function HomePage() {
               company: "Digital Marketing Agency",
               rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png",
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=2",
             },
             {
               id: "4",
