@@ -43,8 +43,7 @@ const navItems = [
 
 const footerColumns = [
   {
-    title: "Services",
-    items: [
+    title: "Services",    items: [
       { label: "WordPress Websites", href: "#" },
       { label: "E-commerce Stores", href: "#" },
       { label: "Landing Pages", href: "#" },
@@ -53,8 +52,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Company",
-    items: [
+    title: "Company",    items: [
       { label: "About Us", href: "/about" },
       { label: "Our Portfolio", href: "/portfolio" },
       { label: "Pricing", href: "/pricing" },
@@ -63,8 +61,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Resources",
-    items: [
+    title: "Resources",    items: [
       { label: "FAQ", href: "#" },
       { label: "Web Design Guide", href: "#" },
       { label: "Case Studies", href: "#" },
@@ -72,8 +69,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Legal",
-    items: [
+    title: "Legal",    items: [
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
       { label: "Cookie Policy", href: "#" },
@@ -100,9 +96,7 @@ export default function HomePage() {
           brandName="AviCoding"
           navItems={navItems}
           button={{
-            text: "Get Free Consultation",
-            href: "/contact",
-          }}
+            text: "Get Free Consultation",            href: "/contact"}}
           animateOnLoad={true}
         />
       </div>
@@ -119,32 +113,20 @@ export default function HomePage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              name: "Maria Jovanovic",
-              handle: "Owner, E-commerce Store",
-              testimonial:
-                "AviCoding transformed our online presence. Our sales increased by 42% in just 3 months!",
-              rating: 5,
+              name: "Maria Jovanovic",              handle: "Owner, E-commerce Store",              testimonial:
+                "AviCoding transformed our online presence. Our sales increased by 42% in just 3 months!",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=1",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png"},
             {
-              name: "Stefan Dimitrijevic",
-              handle: "Marketing Director, Local Brand",
-              testimonial:
-                "Professional, reliable, and results-oriented. Exactly what we needed for our digital presence.",
-              rating: 5,
+              name: "Stefan Dimitrijevic",              handle: "Marketing Director, Local Brand",              testimonial:
+                "Professional, reliable, and results-oriented. Exactly what we needed for our digital presence.",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=1",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png"},
             {
-              name: "Ana Milic",
-              handle: "Salon Owner",
-              testimonial:
-                "The new website brought in so many new clients. AviCoding's support is outstanding!",
-              rating: 5,
+              name: "Ana Milic",              handle: "Salon Owner",              testimonial:
+                "The new website brought in so many new clients. AviCoding's support is outstanding!",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=1",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png"},
           ]}
           testimonialRotationInterval={5000}
           buttons={[
@@ -161,24 +143,16 @@ export default function HomePage() {
           metrics={[
             {
               icon: Globe,
-              label: "Serving Clients Across",
-              value: "Europe",
-            },
+              label: "Serving Clients Across",              value: "Europe"},
             {
               icon: Code,
-              label: "WordPress & Web Development",
-              value: "Expert",
-            },
+              label: "WordPress & Web Development",              value: "Expert"},
             {
               icon: Zap,
-              label: "Performance Optimized",
-              value: "100%",
-            },
+              label: "Performance Optimized",              value: "100%"},
             {
               icon: CheckCircle,
-              label: "Long-term Support",
-              value: "Always",
-            },
+              label: "Long-term Support",              value: "Always"},
           ]}
           metricsAnimation="slide-up"
           useInvertedBackground={false}
@@ -191,14 +165,10 @@ export default function HomePage() {
           description="Comprehensive web solutions tailored to your business needs"
           features={[
             {
-              id: "1",
-              title: "Custom WordPress Websites",
-              description:
-                "Professional, fully customized WordPress websites built to your specifications. We handle everything from design to deployment and ongoing maintenance.",
-              media: {
+              id: "1",              title: "Custom WordPress Websites",              description:
+                "Professional, fully customized WordPress websites built to your specifications. We handle everything from design to deployment and ongoing maintenance.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-wordpress-website-dashboard-int-1772534363949-f30a1051.png?_wi=1",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-wordpress-website-dashboard-int-1772534363949-f30a1051.png"},
               items: [
                 { icon: Palette, text: "Custom Design" },
                 { icon: Code, text: "Clean Code" },
@@ -207,14 +177,10 @@ export default function HomePage() {
               reverse: false,
             },
             {
-              id: "2",
-              title: "E-commerce Development",
-              description:
-                "WooCommerce and advanced e-commerce solutions that convert. We optimize for sales with streamlined checkout flows and product management systems.",
-              media: {
+              id: "2",              title: "E-commerce Development",              description:
+                "WooCommerce and advanced e-commerce solutions that convert. We optimize for sales with streamlined checkout flows and product management systems.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-e-commerce-website-interf-1772534363405-baa8b36c.png?_wi=1",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-e-commerce-website-interf-1772534363405-baa8b36c.png"},
               items: [
                 { icon: ShoppingCart, text: "WooCommerce Expert" },
                 { icon: Zap, text: "Fast Checkout" },
@@ -223,14 +189,10 @@ export default function HomePage() {
               reverse: true,
             },
             {
-              id: "3",
-              title: "Landing Pages for Ads",
-              description:
-                "High-converting landing pages designed specifically for your advertising campaigns. Optimized for cost-per-acquisition and maximum ROI.",
-              media: {
+              id: "3",              title: "Landing Pages for Ads",              description:
+                "High-converting landing pages designed specifically for your advertising campaigns. Optimized for cost-per-acquisition and maximum ROI.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-high-converting-landing-page-design-fo-1772534365645-4bbe1daa.png?_wi=1",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-high-converting-landing-page-design-fo-1772534365645-4bbe1daa.png"},
               items: [
                 { icon: Target, text: "Ad Optimized" },
                 { icon: Flame, text: "High Converting" },
@@ -239,14 +201,10 @@ export default function HomePage() {
               reverse: false,
             },
             {
-              id: "4",
-              title: "Speed & SEO Optimization",
-              description:
-                "Lightning-fast websites with SEO foundations built in. We optimize performance, mobile experience, and search rankings to drive organic traffic.",
-              media: {
+              id: "4",              title: "Speed & SEO Optimization",              description:
+                "Lightning-fast websites with SEO foundations built in. We optimize performance, mobile experience, and search rankings to drive organic traffic.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-website-speed-optimization-dashboard-s-1772534363850-0081c17a.png",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-website-speed-optimization-dashboard-s-1772534363850-0081c17a.png"},
               items: [
                 { icon: Zap, text: "Speed Optimized" },
                 { icon: Search, text: "SEO Ready" },
@@ -267,35 +225,19 @@ export default function HomePage() {
           description="We combine technical excellence with business strategy"
           metrics={[
             {
-              id: "1",
-              value: "24h",
-              title: "Fast Delivery",
-              description: "Quick turnaround times without compromising quality",
-              icon: Zap,
+              id: "1",              value: "24h",              title: "Fast Delivery",              description: "Quick turnaround times without compromising quality",              icon: Zap,
             },
             {
-              id: "2",
-              value: "100%",
-              title: "Transparent Pricing",
-              description: "Clear pricing structure with no hidden fees",
-              icon: DollarSign,
+              id: "2",              value: "100%",              title: "Transparent Pricing",              description: "Clear pricing structure with no hidden fees",              icon: DollarSign,
             },
             {
-              id: "3",
-              value: "∞",
-              title: "Ongoing Support",
-              description: "Long-term support and maintenance included",
-              icon: LifeBuoy,
+              id: "3",              value: "∞",              title: "Ongoing Support",              description: "Long-term support and maintenance included",              icon: LifeBuoy,
             },
             {
-              id: "4",
-              value: "+98%",
-              title: "Results Driven",
-              description: "Average conversion rate improvement for clients",
-              icon: TrendingUp,
+              id: "4",              value: "+98%",              title: "Results Driven",              description: "Average conversion rate improvement for clients",              icon: TrendingUp,
             },
           ]}
-          gridVariant="four-items-2x2-equal-grid"
+          gridVariant="uniform-all-items-equal"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
@@ -308,59 +250,29 @@ export default function HomePage() {
           description="Real feedback from businesses we've helped grow"
           testimonials={[
             {
-              id: "1",
-              name: "Marko Petrovic",
-              role: "Owner",
-              company: "E-commerce Startup",
-              rating: 5,
+              id: "1",              name: "Marko Petrovic",              role: "Owner",              company: "E-commerce Startup",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=2",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png"},
             {
-              id: "2",
-              name: "Jovana Stosic",
-              role: "Marketing Manager",
-              company: "Fashion Boutique",
-              rating: 5,
+              id: "2",              name: "Jovana Stosic",              role: "Marketing Manager",              company: "Fashion Boutique",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=2",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png"},
             {
-              id: "3",
-              name: "Nikola Cvetkovic",
-              role: "Founder",
-              company: "Digital Marketing Agency",
-              rating: 5,
+              id: "3",              name: "Nikola Cvetkovic",              role: "Founder",              company: "Digital Marketing Agency",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=2",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png"},
             {
-              id: "4",
-              name: "Milica Markovic",
-              role: "Owner",
-              company: "Beauty Salon",
-              rating: 5,
+              id: "4",              name: "Milica Markovic",              role: "Owner",              company: "Beauty Salon",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-young-entrepr-1772534362686-b947072e.png",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-young-entrepr-1772534362686-b947072e.png"},
             {
-              id: "5",
-              name: "Aleksandar Novak",
-              role: "Manager",
-              company: "Fitness Studio",
-              rating: 5,
+              id: "5",              name: "Aleksandar Novak",              role: "Manager",              company: "Fitness Studio",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-service-busin-1772534362581-349392c1.png",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-service-busin-1772534362581-349392c1.png"},
             {
-              id: "6",
-              name: "Tamara Jankovic",
-              role: "CEO",
-              company: "Law Firm",
-              rating: 5,
+              id: "6",              name: "Tamara Jankovic",              role: "CEO",              company: "Law Firm",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-small-busines-1772534361921-8aa842c3.png",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-small-busines-1772534361921-8aa842c3.png"},
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -375,49 +287,18 @@ export default function HomePage() {
           description="Choose the plan that fits your business needs"
           plans={[
             {
-              id: "starter",
-              badge: "Good Start",
-              price: "€1,999",
-              subtitle: "Perfect for small businesses launching online",
-              features: [
-                "Professional WordPress website",
-                "Mobile responsive design",
-                "Basic SEO setup",
-                "3 months support",
-                "Domain & hosting assistance",
-              ],
+              id: "starter",              badge: "Good Start",              price: "€1,999",              subtitle: "Perfect for small businesses launching online",              features: [
+                "Professional WordPress website",                "Mobile responsive design",                "Basic SEO setup",                "3 months support",                "Domain & hosting assistance"],
               badgeIcon: Zap,
             },
             {
-              id: "business",
-              badge: "Most Popular",
-              price: "€4,499",
-              subtitle: "Ideal for established businesses wanting to scale",
-              features: [
-                "Custom WordPress or WooCommerce store",
-                "Advanced SEO optimization",
-                "Monthly performance reports",
-                "12 months ongoing support",
-                "Speed optimization",
-                "Advanced analytics setup",
-                "Marketing campaign landing pages",
-              ],
+              id: "business",              badge: "Most Popular",              price: "€4,499",              subtitle: "Ideal for established businesses wanting to scale",              features: [
+                "Custom WordPress or WooCommerce store",                "Advanced SEO optimization",                "Monthly performance reports",                "12 months ongoing support",                "Speed optimization",                "Advanced analytics setup",                "Marketing campaign landing pages"],
               badgeIcon: CheckCircle,
             },
             {
-              id: "premium",
-              badge: "Enterprise",
-              price: "€8,999+",
-              subtitle: "Full-service digital transformation",
-              features: [
-                "Bespoke web application or complex site",
-                "E-commerce with payment integration",
-                "Custom integrations & API setup",
-                "Unlimited revisions during development",
-                "24/7 priority support",
-                "Quarterly strategy reviews",
-                "Dedicated account manager",
-              ],
+              id: "premium",              badge: "Enterprise",              price: "€8,999+",              subtitle: "Full-service digital transformation",              features: [
+                "Bespoke web application or complex site",                "E-commerce with payment integration",                "Custom integrations & API setup",                "Unlimited revisions during development",                "24/7 priority support",                "Quarterly strategy reviews",                "Dedicated account manager"],
               badgeIcon: Rocket,
             },
           ]}
