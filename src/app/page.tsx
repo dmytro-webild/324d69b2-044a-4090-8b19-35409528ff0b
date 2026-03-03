@@ -116,17 +116,17 @@ export default function HomePage() {
               name: "Maria Jovanovic",              handle: "Owner, E-commerce Store",              testimonial:
                 "AviCoding transformed our online presence. Our sales increased by 42% in just 3 months!",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=1"},
             {
               name: "Stefan Dimitrijevic",              handle: "Marketing Director, Local Brand",              testimonial:
                 "Professional, reliable, and results-oriented. Exactly what we needed for our digital presence.",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=1"},
             {
               name: "Ana Milic",              handle: "Salon Owner",              testimonial:
                 "The new website brought in so many new clients. AviCoding's support is outstanding!",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=1"},
           ]}
           testimonialRotationInterval={5000}
           buttons={[
@@ -252,15 +252,15 @@ export default function HomePage() {
             {
               id: "1",              name: "Marko Petrovic",              role: "Owner",              company: "E-commerce Startup",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=2"},
             {
               id: "2",              name: "Jovana Stosic",              role: "Marketing Manager",              company: "Fashion Boutique",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=2"},
             {
               id: "3",              name: "Nikola Cvetkovic",              role: "Founder",              company: "Digital Marketing Agency",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png"},
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=2"},
             {
               id: "4",              name: "Milica Markovic",              role: "Owner",              company: "Beauty Salon",              rating: 5,
               imageSrc:
