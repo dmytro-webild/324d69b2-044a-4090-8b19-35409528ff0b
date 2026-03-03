@@ -33,8 +33,7 @@ const navItems = [
 
 const footerColumns = [
   {
-    title: "Services",
-    items: [
+    title: "Services",    items: [
       { label: "WordPress Websites", href: "#" },
       { label: "E-commerce Stores", href: "#" },
       { label: "Landing Pages", href: "#" },
@@ -43,8 +42,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Company",
-    items: [
+    title: "Company",    items: [
       { label: "About Us", href: "/about" },
       { label: "Our Portfolio", href: "/portfolio" },
       { label: "Pricing", href: "/pricing" },
@@ -53,8 +51,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Resources",
-    items: [
+    title: "Resources",    items: [
       { label: "FAQ", href: "#" },
       { label: "Web Design Guide", href: "#" },
       { label: "Case Studies", href: "#" },
@@ -62,8 +59,7 @@ const footerColumns = [
     ],
   },
   {
-    title: "Legal",
-    items: [
+    title: "Legal",    items: [
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
       { label: "Cookie Policy", href: "#" },
@@ -90,9 +86,7 @@ export default function AboutPage() {
           brandName="AviCoding"
           navItems={navItems}
           button={{
-            text: "Get Free Consultation",
-            href: "/contact",
-          }}
+            text: "Get Free Consultation",            href: "/contact"}}
           animateOnLoad={true}
         />
       </div>
@@ -103,14 +97,10 @@ export default function AboutPage() {
           description="A streamlined approach from discovery to launch and growth"
           features={[
             {
-              id: "1",
-              title: "Consultation & Discovery",
-              description:
-                "We start by understanding your business goals, target audience, and vision. This foundation guides every decision we make.",
-              media: {
+              id: "1",              title: "Consultation & Discovery",              description:
+                "We start by understanding your business goals, target audience, and vision. This foundation guides every decision we make.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-consultation-meeting-betw-1772534362968-384481e8.png",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-professional-consultation-meeting-betw-1772534362968-384481e8.png"},
               items: [
                 { icon: MessageSquare, text: "Listen & Understand" },
                 { icon: Target, text: "Define Goals" },
@@ -119,14 +109,10 @@ export default function AboutPage() {
               reverse: false,
             },
             {
-              id: "2",
-              title: "Strategy & Design",
-              description:
-                "Our team creates wireframes, mockups, and visual designs that align with your brand. We prioritize user experience and conversion.",
-              media: {
+              id: "2",              title: "Strategy & Design",              description:
+                "Our team creates wireframes, mockups, and visual designs that align with your brand. We prioritize user experience and conversion.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-designer-working-on-wireframes-and-ui--1772534362820-086e40da.png",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-designer-working-on-wireframes-and-ui--1772534362820-086e40da.png"},
               items: [
                 { icon: Palette, text: "Visual Design" },
                 { icon: Eye, text: "UX Strategy" },
@@ -135,14 +121,10 @@ export default function AboutPage() {
               reverse: true,
             },
             {
-              id: "3",
-              title: "Development & Build",
-              description:
-                "We build your website using clean, optimized code. WordPress, custom development, or e-commerce—we deliver production-ready sites.",
-              media: {
+              id: "3",              title: "Development & Build",              description:
+                "We build your website using clean, optimized code. WordPress, custom development, or e-commerce—we deliver production-ready sites.",              media: {
                 imageSrc:
-                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-developer-coding-on-multiple-monitors--1772534363176-8f581267.png",
-              },
+                  "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-developer-coding-on-multiple-monitors--1772534363176-8f581267.png"},
               items: [
                 { icon: Code, text: "Clean Code" },
                 { icon: Zap, text: "Optimized" },
@@ -163,28 +145,16 @@ export default function AboutPage() {
           description="Excellence in every project, every time"
           metrics={[
             {
-              id: "1",
-              value: "24h",
-              title: "Fast Delivery",
-              description: "Quick turnaround times without compromising quality",
-              icon: Zap,
+              id: "1",              value: "24h",              title: "Fast Delivery",              description: "Quick turnaround times without compromising quality",              icon: Zap,
             },
             {
-              id: "2",
-              value: "100%",
-              title: "Transparent Pricing",
-              description: "Clear pricing structure with no hidden fees",
-              icon: DollarSign,
+              id: "2",              value: "100%",              title: "Transparent Pricing",              description: "Clear pricing structure with no hidden fees",              icon: DollarSign,
             },
             {
-              id: "3",
-              value: "∞",
-              title: "Ongoing Support",
-              description: "Long-term support and maintenance included",
-              icon: LifeBuoy,
+              id: "3",              value: "∞",              title: "Ongoing Support",              description: "Long-term support and maintenance included",              icon: LifeBuoy,
             },
           ]}
-          gridVariant="three-columns-all-equal-width"
+          gridVariant="uniform-all-items-equal"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
@@ -197,34 +167,19 @@ export default function AboutPage() {
           description="Real feedback from businesses we've helped grow"
           testimonials={[
             {
-              id: "1",
-              name: "Marko Petrovic",
-              role: "Owner",
-              company: "E-commerce Startup",
-              rating: 5,
+              id: "1",              name: "Marko Petrovic",              role: "Owner",              company: "E-commerce Startup",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png?_wi=3",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-owne-1772534361864-1a4ef578.png"},
             {
-              id: "2",
-              name: "Jovana Stosic",
-              role: "Marketing Manager",
-              company: "Fashion Boutique",
-              rating: 5,
+              id: "2",              name: "Jovana Stosic",              role: "Marketing Manager",              company: "Fashion Boutique",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png?_wi=3",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-female-entrep-1772534362166-5a49c30c.png"},
             {
-              id: "3",
-              name: "Nikola Cvetkovic",
-              role: "Founder",
-              company: "Digital Marketing Agency",
-              rating: 5,
+              id: "3",              name: "Nikola Cvetkovic",              role: "Founder",              company: "Digital Marketing Agency",              rating: 5,
               imageSrc:
-                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png?_wi=3",
-            },
+                "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/professional-headshot-of-a-business-prof-1772534362506-bb6e59a8.png"},
           ]}
-          gridVariant="three-columns-all-equal-width"
+          gridVariant="uniform-all-items-equal"
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
