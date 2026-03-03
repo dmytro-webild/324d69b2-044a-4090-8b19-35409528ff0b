@@ -241,6 +241,10 @@ export default function HomePage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+          buttons={[
+            { text: "Let's Get Started", href: "pricing" }
+          ]}
+          buttonAnimation="slide-up"
         />
       </div>
 
