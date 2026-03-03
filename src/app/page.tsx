@@ -103,7 +103,7 @@ export default function HomePage() {
 
       <div id="hero" data-section="hero">
         <HeroBillboardTestimonial
-          title="Websites That Turn Visitors Into Clients"
+          title="Websites That Convert Visitors Into Paying Clients"
           description="We design, build and maintain high-performance websites that grow your business. From WordPress sites to e-commerce stores, we create solutions that convert."
           tag="Premium Web Solutions"
           background={{ variant: "glowing-orb" }}
