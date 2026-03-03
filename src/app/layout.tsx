@@ -1,61 +1,20 @@
 import type { Metadata } from "next";
-import { Archivo } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 
-const archivo = Archivo({
-  variable: "--font-archivo",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AviCoding - Web Design & Development Agency",
-  description: "Premium web design, WordPress development, and e-commerce solutions for European businesses. Custom websites that convert visitors into clients.",
-  keywords: "web design, web development, WordPress, e-commerce, landing pages, Serbia, Europe",
-  metadataBase: new URL("https://avicoding.com"),
-  alternates: {
-    canonical: "https://avicoding.com",
-  },
-  openGraph: {
-    title: "AviCoding - Web Design & Development Agency",
-    description: "Build high-converting websites that grow your business. Professional web design and development services across Europe.",
-    url: "https://avicoding.com",
-    siteName: "AviCoding",
-    type: "website",
-    images: [
-      {
-        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-premium-web-design-and-developm-1772534363140-b2bf1f7a.png",
-        alt: "AviCoding - Premium Web Design & Development",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AviCoding - Web Design & Development Agency",
-    description: "Professional websites that turn visitors into clients. Custom design, WordPress development, e-commerce solutions.",
-    images: [
-      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQoiK0cfH6yVn0KJDPULLa1Z6v/a-modern-premium-web-design-and-developm-1772534363140-b2bf1f7a.png",
-    ],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  title: "AviCoding | Web Design & Development for European Businesses",  description: "Professional web design and development services for WordPress sites, e-commerce stores, and landing pages. Serving European businesses with high-converting websites."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body className={`${archivo.variable} antialiased`}>
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1423,7 +1382,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
